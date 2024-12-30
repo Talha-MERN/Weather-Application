@@ -1,0 +1,54 @@
+#weather-app-background-video {
+    position: relative;
+}
+
+#main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border-radius: 10px;
+}
+
+#search-button {
+    width: 100%;
+}
+
+.additional-info {
+    background-color: #C0C0C0;
+    border-radius: 25px;
+}
+
+.sub-additional-info {
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #weather-app-background-video {
+        position: relative;
+    }
+
+    #main-container {
+        margin-top: 180px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #search-button {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .weather-condition {
+        font-size: 22px;
+        margin-top: 5px;
+    }
+
+    .additional-info {
+        background-color: #C0C0C0;
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+}
